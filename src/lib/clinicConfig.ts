@@ -1,5 +1,7 @@
 // Centralized configuration for the clinic landing page.
 // Edit these values to update the entire site.
+import beforeFacial from "@/assets/before-facial.jpg";
+import beforeFacial2 from "@/assets/before-facial2.jpg";
 
 export const clinic = {
   name: "Veloura",
@@ -141,7 +143,7 @@ export const results: ResultPair[] = [
     treatment: "Rejuvenescimento Facial",
     description: "Pele mais luminosa e uniforme após protocolo personalizado.",
     timeframe: "8 semanas",
-    before: "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/0db01749e_generated_be83dfab.png",
+    before: beforeFacial,
     after: "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/d5c8c82f6_generated_3b02c0ef.png",
   },
   {
@@ -149,7 +151,7 @@ export const results: ResultPair[] = [
     treatment: "Tratamento de Manchas",
     description: "Redução visível de manchas com tecnologia de laser.",
     timeframe: "6 semanas",
-    before: "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/ef39a9896_generated_f7a0aaba.png",
+    before: beforeFacial2,
     after: "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/ff2da31df_generated_ceb9e980.png",
   },
 ];

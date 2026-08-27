@@ -10,7 +10,6 @@ import { Experts } from "@/components/clinic/Experts";
 import { Journey } from "@/components/clinic/Journey";
 import { Testimonials } from "@/components/clinic/Testimonials";
 import { SocialProof } from "@/components/clinic/SocialProof";
-import { CTASection } from "@/components/clinic/CTASection";
 import { Booking } from "@/components/clinic/Booking";
 import { Location } from "@/components/clinic/Location";
 import { Footer } from "@/components/clinic/Footer";
@@ -76,7 +75,6 @@ export default function Home() {
         <Journey />
         <Testimonials />
         <SocialProof />
-        <CTASection />
         <Booking />
         <Location />
       </main>
