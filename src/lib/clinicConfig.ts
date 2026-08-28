@@ -2,6 +2,7 @@
 // Edit these values to update the entire site.
 import beforeFacial from "@/assets/before-facial.jpg";
 import beforeFacial2 from "@/assets/before-facial2.jpg";
+import heroimg from "@/assets/hero.png";
 
 export const clinic = {
   name: "Veloura",
@@ -208,6 +209,6 @@ export const testimonials: TestimonialData = {
   ],
 };
 
-export const heroImage = "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/2c2c7151e_generated_ea6aa77e.png";
+export const heroImage = heroimg;
 export const aboutImage = "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/6142bc0bf_generated_ef5f6ed8.png";
 export const featuredImage = "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/940f902e5_generated_02fadd40.png";
